@@ -17,8 +17,10 @@ public class AlgoDat {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int[] a = {1, 2, 4, 3, 2, 6, 7, 9, 5, 8, 10};
-        System.out.println(Tabell.inversjoner(a));  // Utskrift: 5
+        String[] a = {"Sohil", "Per", "Thanh", "Fatima", "Kari", "Jasmin"};
+        Integer[] s = {1,4,3,6,5,2};
+        Tabell.innsettingssortering(s);
+        System.out.println(Arrays.toString(s));
     }
 
 }
